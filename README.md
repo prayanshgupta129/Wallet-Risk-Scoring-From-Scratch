@@ -1,10 +1,10 @@
-# 📊 Credit Score Computation using Aave Subgraph Data
+#  Credit Score Computation using Aave Subgraph Data
 
 This project calculates credit scores for blockchain wallet addresses by analyzing on-chain financial behavior using data from an Aave subgraph. The credit score is computed based on deposit, borrow, and repay activity.
 
 ---
 
-## 🔍 Data Collection Method
+##  Data Collection Method
 
 We use **The Graph Protocol** to access on-chain financial data stored in an **Aave Lending Subgraph**. Specifically:
 
@@ -18,7 +18,7 @@ We use **The Graph Protocol** to access on-chain financial data stored in an **A
 
 ---
 
-## 📌 Feature Selection Rationale
+##  Feature Selection Rationale
 
 We selected features based on their relevance to risk and creditworthiness:
 
@@ -32,7 +32,7 @@ These three features represent the **financial discipline and risk exposure** of
 
 ---
 
-## 🧮 Scoring Method
+##  Scoring Method
 
 We compute the credit score on a scale of **0 to 1000**, using the following formula:
 
@@ -50,7 +50,7 @@ else:
 
 ---
 
-## ⚠️ Justification of Risk Indicators
+## ⚠ Justification of Risk Indicators
 
 These indicators were chosen based on common credit risk principles in both traditional and DeFi lending:
 
@@ -68,7 +68,7 @@ These indicators were chosen based on common credit risk principles in both trad
 
 ---
 
-## 📁 Output
+##  Output
 
 A CSV file named `credit_scores.csv` is generated with the following structure:
 
@@ -79,7 +79,7 @@ A CSV file named `credit_scores.csv` is generated with the following structure:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Implement full **pagination** to fetch data beyond the 5000-record limit.
 - Introduce additional features such as **collateral type**, **loan duration**, or **liquidation events**.
