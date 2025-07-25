@@ -50,7 +50,7 @@ else:
 
 ---
 
-## ⚠ Justification of Risk Indicators
+##  Justification of Risk Indicators
 
 These indicators were chosen based on common credit risk principles in both traditional and DeFi lending:
 
